@@ -14,10 +14,10 @@ import lombok.Setter;
 @Entity
 public class Child extends Person {
 	private static final long serialVersionUID = 202212122104L;
-	String kindergarten;
+	String kindergarden;
 
 	public Child(Integer id, String name, LocalDate birthDate, Address address, String kindergarten) {
 		super(id, name, birthDate, address);
-		this.kindergarten = kindergarten;
+		this.kindergarden = kindergarden;
 	}
 }
